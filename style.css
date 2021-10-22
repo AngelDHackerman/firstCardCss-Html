@@ -60,7 +60,7 @@ body {
   display: flex;
   gap: 4px;
   width: 300px;
-  height: 60px;
+  height: 80px;
   padding: 10px;
   margin: 0 auto;
   margin-top: 25px;
@@ -70,8 +70,8 @@ body {
   align-items: center;
 }
 .main .content-choose-plan img { 
- width: 50px;
- height: 50px;
+ width: 60px;
+ height: 60px;
 }
 .main .content-choose-plan p { 
   font-size: 1rem;  
@@ -97,5 +97,30 @@ body {
 .main .aceppt-cancel-payment { 
   display: flex;
   flex-direction: column;
-  padding: 25px;
+  width: 300px;
+  height: 100px;
+  justify-content: center;
+  margin: 20px auto 0;
+}
+.main .aceppt-cancel-payment button:nth-child(1) { 
+  height: 80px;
+  margin: 10px 0;
+  width: 100%;
+  border: none;
+  color: white;
+  background: var(--Bright-blue);
+  font-weight: 900;
+  font-size: 1.6rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 6px 4px var(--Pale-blue);
+}
+.main .aceppt-cancel-payment button:nth-child(2) {
+  width: 100%;
+  height: 15px;
+  margin-top: 15px;
+  border: none;
+  color: var(--Desaturated-blue);
+  background: white;
+  font-weight: 900;
+  font-size: 1.5rem;
 }
